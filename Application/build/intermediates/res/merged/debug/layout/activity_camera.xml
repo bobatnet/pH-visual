@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.csir.csio.instapH.CameraActivity" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewfinder"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/crosshair">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="crosshairClicked"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageSplash"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/intro_message"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:foreground="#b41313"
+            android:background="#2c8266" />
+
+        <com.csir.csio.instapH.Viewfinder
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view"
+            android:layout_alignParentEnd="true"
+            android:onClick="crosshairClicked"
+            android:layout_below="@+id/textView" />
+
+        <com.csir.csio.instapH.ViewScale
+            android:layout_height="match_parent"
+            android:id="@+id/viewphscale"
+            android:layout_width="100dp"
+            android:layout_alignParentEnd="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:layout_below="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_to"
+            android:id="@+id/need_calib"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_toStartOf="@+id/viewphscale" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/textph"
+            android:textSize="60dp"
+            android:layout_below="@+id/need_calib"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/viewphscale"
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editph"
+            android:editable="true"
+            android:layout_below="@+id/textph"
+            android:layout_toEndOf="@+id/butDec"
+            android:visibility="invisible"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/butDec"
+            android:layout_alignBottom="@+id/editph"
+            android:layout_alignParentStart="true"
+            android:onClick="decrementLabel"
+            android:visibility="invisible"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/butInc"
+            android:layout_alignBottom="@+id/editph"
+            android:layout_toEndOf="@+id/editph"
+            android:onClick="incrementLabel"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Taken"
+            android:id="@+id/takenView"
+            android:layout_alignBottom="@+id/editph"
+            android:layout_below="@+id/textph"
+            android:layout_toEndOf="@+id/imageView"
+            android:visibility="invisible"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/buttonBack"
+            android:onClick="backClicked"
+            android:layout_above="@+id/adView"
+            android:visibility="invisible"
+            android:layout_alignParentStart="true" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_id_test"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calibration"
+            android:visibility="invisible"
+            android:id="@+id/butCalibrate"
+            android:onClick="calibrateClicked"
+            android:layout_alignTop="@+id/buttonBack"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/ic_launcher"
+            android:minHeight="50dp"
+            android:longClickable="false"
+            android:minWidth="50dp"
+            android:layout_above="@+id/view"
+            android:layout_toStartOf="@+id/about"
+            android:background="#00ffffff"
+            android:onClick="showAboutBox"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about"
+            android:id="@+id/about"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageView2"
+            android:onClick="showAboutBox"
+            android:background="#00ffffff" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

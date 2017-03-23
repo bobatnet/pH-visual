@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/drawable-mdpi-v11/delete.png",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/drawable-mdpi-v11/delete.png"
+    },
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/drawable-mdpi-v11/csio_logo.png",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/drawable-mdpi-v11/csio_logo.png"
+    },
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/drawable-mdpi-v11/ic_stat_name.png",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/drawable-mdpi-v11/ic_stat_name.png"
+    }
+]

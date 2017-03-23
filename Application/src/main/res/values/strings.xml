@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_calibrations">Calibrations</string>
+    <string name="viewfinder_banner_ad_id">ca-app-pub-9783901507678022/2853102796</string>
+    <string name="banner_ad_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="calibrated_phs">Calibrated Ph Values</string>
+    <string name="learning">Learning&#8230;</string>
+    <string name="need_calibration">Calibrate with at least an acidic, basic and neutral Ph.</string>
+    <string name="how_to">Place yellow pointer over un-dipped pH strip and white on colored region.</string>
+    <string name="about_box_title">About</string>
+    <string name="about_box">The application works best for universal indicator ph strip, for the range 1&#8211;14.\n\nUse ambient white light and 10&#xA0;&#xB5;l test solution for better results.\n\nAvoid shadow over the testing strip.\n\nDeveloped in CSIR-CSIO, by Sankho&#xA0;Turjo&#xA0;Sarkar (sturjo@csio.res.in), Ritesh&#xA0;Kumar, Saurav&#xA0;Kumar, Anupama&#xA0;Sharma, Monika&#xA0;Singla, and Amol P Bhondekar of Food Processing Instrumentation Lab (Agrionics).\n\nThis app is for educational purposes. CSIR-CSIO will not be held responsible for any damages caused due to this app.</string>
+    <string name="ok">OK</string>
+</resources>

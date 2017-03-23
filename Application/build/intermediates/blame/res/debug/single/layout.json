@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/layout/activity_calibrations.xml",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/layout/activity_calibrations.xml"
+    },
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/layout/activity_camera.xml",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/layout/activity_camera.xml"
+    },
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/layout/fragment_camera2_basic.xml",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/layout/fragment_camera2_basic.xml"
+    }
+]

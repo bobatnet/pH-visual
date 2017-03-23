@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/mipmap-xhdpi/crosshair_img.png",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/mipmap-xhdpi/crosshair_img.png"
+    },
+    {
+        "merged": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/build/intermediates/res/merged/debug/mipmap-xhdpi/splash.png",
+        "source": "/home/bob/Dropbox/mysources/pH/pH-visual/Application/src/main/res/mipmap-xhdpi/splash.png"
+    }
+]

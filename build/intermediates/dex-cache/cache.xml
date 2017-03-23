@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bob/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-857109d64119410b424682075ddc0d87461b7fa1.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-e528bb0d12911395a6ff78a7fb1c9150bfb9df09.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9346da9fb778af9e451211bbc3541daced174ba7">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-296d84a195cd8b1ceb55db195527ce15d8c87765.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-51c0700818d99f354fdc874ecb750760dad602d5.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-60b692289433438544d8fcc5fcde6299fd6412b0.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61965ae058916e6a57950dd61b0164dc866af19a">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-dfdfe8c1d8365b210c9fbc9e98e5523241523f23.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="27775d59b16610ac76f1b83693fedd9520396332">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-c99f8dea5579079d7012ccfa3d45e4e6a5722668.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-a19ee375b2d4af0991d1c89472dd7c1fbd9f035e.jar" />
+    </item>
+    <item
+        jar="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="/home/bob/Dropbox/mysources/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-34783a871aefd6313bd0bdd3d8746f551f533bcd.jar" />
+    </item>
+
+</items>
